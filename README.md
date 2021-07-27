@@ -10,8 +10,22 @@ Kami berinteraksi dengan sistem melalui serangkaian perintah sederhana yang meng
 * Itu harus memberi kami shell berbasis command prompt interaktif di mana perintah dapat diketik
 * Itu harus menerima nama file sebagai parameter pada prompt perintah dan membaca perintah dari file itu
 
-### Expectations
-* Code should be functionally correct.
-* Code should be modular and readable. Clean and professional level code.
-* Code should be extensible and scalable. Means it should be able to accommodate new requirements with minimal changes.
-* Code should have good OOPs design.
+### Sample Command
+* create_parking_lot 2
+* park 001 white
+* park 002 blue
+* park 003 gren
+* status
+* leave 002 1 (002 = nomor kendaraan, 1 = lama nya parkir)
+* exit
+
+### Sample response
+* Created a parking lot with 2 slots 
+* Allocated slot number: 1
+* Allocated slot number: 2
+* Sorry, parking lot is full
+* Slot No.  Registration No
+     1       001
+     2       002
+ * Registration number 002 with slot number 2 is free with Charge 10
+ 
